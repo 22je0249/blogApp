@@ -63,18 +63,27 @@ textarea {
   background-color: var(--red);
 }
 
+/* .lottie-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+} */
+
 .lottie-wrapper {
-  width: 450px;
-  height: 450px;
   margin: 10px auto;
-  background: #f3f3f3;
+
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
 }
-
 .placeholder {
+  width: 45%;
+  margin-left: 27.5%;
   position: absolute;
   inset: 0;
   background-color: #e0e0e0;
